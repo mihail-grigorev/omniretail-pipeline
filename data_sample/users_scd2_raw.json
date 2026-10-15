@@ -1,0 +1,1122 @@
+[
+  {
+    "user_id": 1001,
+    "name": "Customer_1001",
+    "email": "user_1001@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-30T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1002,
+    "name": "Customer_1002",
+    "email": "user_1002@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-21T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1002,
+    "name": "Customer_1002",
+    "email": "user_1002@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-03-09T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1003,
+    "name": "Customer_1003",
+    "email": "user_1003@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-26T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1004,
+    "name": "Customer_1004",
+    "email": "user_1004@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1005,
+    "name": "Customer_1005",
+    "email": "user_1005@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-16T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1006,
+    "name": "Customer_1006",
+    "email": "user_1006@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-10T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1007,
+    "name": "Customer_1007",
+    "email": "user_1007@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1007,
+    "name": "Customer_1007",
+    "email": "user_1007@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-03-09T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1008,
+    "name": "Customer_1008",
+    "email": "user_1008@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1009,
+    "name": "Customer_1009",
+    "email": "user_1009@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-07T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1010,
+    "name": "Customer_1010",
+    "email": "user_1010@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1011,
+    "name": "Customer_1011",
+    "email": "user_1011@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-17T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1012,
+    "name": "Customer_1012",
+    "email": "user_1012@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-17T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1012,
+    "name": "Customer_1012",
+    "email": "user_1012@example.com",
+    "region": "South",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-03-15T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1013,
+    "name": "Customer_1013",
+    "email": "user_1013@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1014,
+    "name": "Customer_1014",
+    "email": "user_1014@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1015,
+    "name": "Customer_1015",
+    "email": "user_1015@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1015,
+    "name": "Customer_1015",
+    "email": "user_1015@example.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-03-08T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1016,
+    "name": "Customer_1016",
+    "email": "user_1016@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-29T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1017,
+    "name": "Customer_1017",
+    "email": "user_1017@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-13T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1017,
+    "name": "Customer_1017",
+    "email": "user_1017@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-24T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1018,
+    "name": "Customer_1018",
+    "email": "user_1018@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-03T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1019,
+    "name": "Customer_1019",
+    "email": "user_1019@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1020,
+    "name": "Customer_1020",
+    "email": "user_1020@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-07T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1020,
+    "name": "Customer_1020",
+    "email": "user_1020@example.com",
+    "region": "Central",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-22T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1021,
+    "name": "Customer_1021",
+    "email": "user_1021@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-24T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1021,
+    "name": "Customer_1021",
+    "email": "user_1021@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-21T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1022,
+    "name": "Customer_1022",
+    "email": "user_1022@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-15T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1023,
+    "name": "Customer_1023",
+    "email": "user_1023@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-26T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1023,
+    "name": "Customer_1023",
+    "email": "user_1023@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-03-14T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1024,
+    "name": "Customer_1024",
+    "email": "user_1024@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-10T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1024,
+    "name": "Customer_1024",
+    "email": "user_1024@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-28T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1025,
+    "name": "Customer_1025",
+    "email": "user_1025@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-26T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1026,
+    "name": "Customer_1026",
+    "email": "user_1026@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-02T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1027,
+    "name": "Customer_1027",
+    "email": "user_1027@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-23T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1028,
+    "name": "Customer_1028",
+    "email": "user_1028@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-05T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1029,
+    "name": "Customer_1029",
+    "email": "user_1029@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-28T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1030,
+    "name": "Customer_1030",
+    "email": "user_1030@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-05T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1031,
+    "name": "Customer_1031",
+    "email": "user_1031@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-27T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1031,
+    "name": "Customer_1031",
+    "email": "user_1031@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-03-11T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1032,
+    "name": "Customer_1032",
+    "email": "user_1032@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-03T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1033,
+    "name": "Customer_1033",
+    "email": "user_1033@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-07T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1034,
+    "name": "Customer_1034",
+    "email": "user_1034@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-16T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1034,
+    "name": "Customer_1034",
+    "email": "user_1034@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-03-04T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1035,
+    "name": "Customer_1035",
+    "email": "user_1035@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-24T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1036,
+    "name": "Customer_1036",
+    "email": "user_1036@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-15T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1037,
+    "name": "Customer_1037",
+    "email": "user_1037@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-27T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1037,
+    "name": "Customer_1037",
+    "email": "user_1037@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-03-02T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1038,
+    "name": "Customer_1038",
+    "email": "user_1038@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-15T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1039,
+    "name": "Customer_1039",
+    "email": "user_1039@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-07T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1039,
+    "name": "Customer_1039",
+    "email": "user_1039@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-18T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1040,
+    "name": "Customer_1040",
+    "email": "user_1040@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-29T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1040,
+    "name": "Customer_1040",
+    "email": "user_1040@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-03-19T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1041,
+    "name": "Customer_1041",
+    "email": "user_1041@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-30T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1042,
+    "name": "Customer_1042",
+    "email": "user_1042@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-16T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1042,
+    "name": "Customer_1042",
+    "email": "user_1042@example.com",
+    "region": "Central",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-15T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1043,
+    "name": "Customer_1043",
+    "email": "user_1043@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1044,
+    "name": "Customer_1044",
+    "email": "user_1044@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1044,
+    "name": "Customer_1044",
+    "email": "user_1044@example.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-03-22T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1045,
+    "name": "Customer_1045",
+    "email": "user_1045@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-08T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1045,
+    "name": "Customer_1045",
+    "email": "user_1045@example.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-03-07T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1046,
+    "name": "Customer_1046",
+    "email": "user_1046@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-26T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1047,
+    "name": "Customer_1047",
+    "email": "user_1047@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-30T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1048,
+    "name": "Customer_1048",
+    "email": "user_1048@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-29T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1049,
+    "name": "Customer_1049",
+    "email": "user_1049@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1049,
+    "name": "Customer_1049",
+    "email": "user_1049@example.com",
+    "region": "Central",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-24T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1050,
+    "name": "Customer_1050",
+    "email": "user_1050@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-27T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1051,
+    "name": "Customer_1051",
+    "email": "user_1051@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-16T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1051,
+    "name": "Customer_1051",
+    "email": "user_1051@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-14T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1052,
+    "name": "Customer_1052",
+    "email": "user_1052@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1052,
+    "name": "Customer_1052",
+    "email": "user_1052@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-17T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1053,
+    "name": "Customer_1053",
+    "email": "user_1053@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-11T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1053,
+    "name": "Customer_1053",
+    "email": "user_1053@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-03-11T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1054,
+    "name": "Customer_1054",
+    "email": "user_1054@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-06T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1054,
+    "name": "Customer_1054",
+    "email": "user_1054@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-17T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1055,
+    "name": "Customer_1055",
+    "email": "user_1055@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-16T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1056,
+    "name": "Customer_1056",
+    "email": "user_1056@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-13T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1057,
+    "name": "Customer_1057",
+    "email": "user_1057@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-13T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1058,
+    "name": "Customer_1058",
+    "email": "user_1058@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-12T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1058,
+    "name": "Customer_1058",
+    "email": "user_1058@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-01T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1059,
+    "name": "Customer_1059",
+    "email": "user_1059@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-27T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1059,
+    "name": "Customer_1059",
+    "email": "user_1059@example.com",
+    "region": "Central",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-03-19T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1060,
+    "name": "Customer_1060",
+    "email": "user_1060@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-15T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1061,
+    "name": "Customer_1061",
+    "email": "user_1061@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-10T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1061,
+    "name": "Customer_1061",
+    "email": "user_1061@example.com",
+    "region": "Central",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-12T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1062,
+    "name": "Customer_1062",
+    "email": "user_1062@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-29T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1063,
+    "name": "Customer_1063",
+    "email": "user_1063@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-18T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1064,
+    "name": "Customer_1064",
+    "email": "user_1064@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-01T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1065,
+    "name": "Customer_1065",
+    "email": "user_1065@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1065,
+    "name": "Customer_1065",
+    "email": "user_1065@example.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-24T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1066,
+    "name": "Customer_1066",
+    "email": "user_1066@example.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-14T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1067,
+    "name": "Customer_1067",
+    "email": "user_1067@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-10T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1068,
+    "name": "Customer_1068",
+    "email": "user_1068@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-04T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1068,
+    "name": "Customer_1068",
+    "email": "user_1068@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-06T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1069,
+    "name": "Customer_1069",
+    "email": "user_1069@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-02T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1070,
+    "name": "Customer_1070",
+    "email": "user_1070@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-08T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1071,
+    "name": "Customer_1071",
+    "email": "user_1071@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-15T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1072,
+    "name": "Customer_1072",
+    "email": "user_1072@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-02T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1072,
+    "name": "Customer_1072",
+    "email": "user_1072@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-01-28T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1073,
+    "name": "Customer_1073",
+    "email": "user_1073@example.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-08T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1074,
+    "name": "Customer_1074",
+    "email": "user_1074@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-02T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1074,
+    "name": "Customer_1074",
+    "email": "user_1074@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-22T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1075,
+    "name": "Customer_1075",
+    "email": "user_1075@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-06T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1075,
+    "name": "Customer_1075",
+    "email": "user_1075@example.com",
+    "region": "Volga",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-07T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1076,
+    "name": "Customer_1076",
+    "email": "user_1076@example.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-09T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1076,
+    "name": "Customer_1076",
+    "email": "user_1076@example.com",
+    "region": "Central",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-26T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1077,
+    "name": "Customer_1077",
+    "email": "user_1077@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-23T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1078,
+    "name": "Customer_1078",
+    "email": "user_1078@example.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-12T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1078,
+    "name": "Customer_1078",
+    "email": "user_1078@example.com",
+    "region": "South",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-20T10:00:00+00:00",
+    "batch_id": "batch_tier_upgrade"
+  },
+  {
+    "user_id": 1079,
+    "name": "Customer_1079",
+    "email": "user_1079@example.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-31T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1080,
+    "name": "Customer_1080",
+    "email": "user_1080@example.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  }
+]

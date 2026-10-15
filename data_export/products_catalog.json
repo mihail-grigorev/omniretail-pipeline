@@ -1,0 +1,102 @@
+[
+  {
+    "product_id": 1,
+    "sku": "SKU-GRO-00001",
+    "title": "Premium Groceries & Food Item #1",
+    "category": "Groceries & Food",
+    "cost_price": 493.36,
+    "base_price": 590.45,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458143+00:00"
+  },
+  {
+    "product_id": 2,
+    "sku": "SKU-GRO-00002",
+    "title": "Premium Groceries & Food Item #2",
+    "category": "Groceries & Food",
+    "cost_price": 362.04,
+    "base_price": 449.7,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458160+00:00"
+  },
+  {
+    "product_id": 3,
+    "sku": "SKU-BEA-00003",
+    "title": "Premium Beauty & Health Item #3",
+    "category": "Beauty & Health",
+    "cost_price": 357.44,
+    "base_price": 590.5,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458167+00:00"
+  },
+  {
+    "product_id": 4,
+    "sku": "SKU-GRO-00004",
+    "title": "Premium Groceries & Food Item #4",
+    "category": "Groceries & Food",
+    "cost_price": 103.01,
+    "base_price": 116.81,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458172+00:00"
+  },
+  {
+    "product_id": 5,
+    "sku": "SKU-GRO-00005",
+    "title": "Premium Groceries & Food Item #5",
+    "category": "Groceries & Food",
+    "cost_price": 555.09,
+    "base_price": 609.88,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458176+00:00"
+  },
+  {
+    "product_id": 6,
+    "sku": "SKU-BEA-00006",
+    "title": "Premium Beauty & Health Item #6",
+    "category": "Beauty & Health",
+    "cost_price": 384.01,
+    "base_price": 619.38,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458178+00:00"
+  },
+  {
+    "product_id": 7,
+    "sku": "SKU-GRO-00007",
+    "title": "Premium Groceries & Food Item #7",
+    "category": "Groceries & Food",
+    "cost_price": 498.24,
+    "base_price": 590.01,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458181+00:00"
+  },
+  {
+    "product_id": 8,
+    "sku": "SKU-SPO-00008",
+    "title": "Premium Sports & Outdoors Item #8",
+    "category": "Sports & Outdoors",
+    "cost_price": 125.19,
+    "base_price": 168.73,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458184+00:00"
+  },
+  {
+    "product_id": 9,
+    "sku": "SKU-GRO-00009",
+    "title": "Premium Groceries & Food Item #9",
+    "category": "Groceries & Food",
+    "cost_price": 401.55,
+    "base_price": 519.78,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458187+00:00"
+  },
+  {
+    "product_id": 10,
+    "sku": "SKU-HOM-00010",
+    "title": "Premium Home & Living Item #10",
+    "category": "Home & Living",
+    "cost_price": 395.06,
+    "base_price": 780.2,
+    "is_active": true,
+    "updated_at": "2026-10-15T11:13:10.458190+00:00"
+  }
+]

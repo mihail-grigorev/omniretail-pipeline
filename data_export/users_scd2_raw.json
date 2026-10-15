@@ -1,0 +1,382 @@
+[
+  {
+    "user_id": 1001,
+    "name": "Customer_1001",
+    "email": "user_1001@example-omni.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-20T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1002,
+    "name": "Customer_1002",
+    "email": "user_1002@example-omni.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-01T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1003,
+    "name": "Customer_1003",
+    "email": "user_1003@example-omni.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-02T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1003,
+    "name": "Customer_1003",
+    "email": "user_1003@example-omni.com",
+    "region": "Far East",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-18T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1004,
+    "name": "Customer_1004",
+    "email": "user_1004@example-omni.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1005,
+    "name": "Customer_1005",
+    "email": "user_1005@example-omni.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1005,
+    "name": "Customer_1005",
+    "email": "user_1005@example-omni.com",
+    "region": "Ural",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-03-23T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1006,
+    "name": "Customer_1006",
+    "email": "user_1006@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-14T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1007,
+    "name": "Customer_1007",
+    "email": "user_1007@example-omni.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-12T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1007,
+    "name": "Customer_1007",
+    "email": "user_1007@example-omni.com",
+    "region": "Siberia",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-19T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1008,
+    "name": "Customer_1008",
+    "email": "user_1008@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-06T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1008,
+    "name": "Customer_1008",
+    "email": "user_1008@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-05T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1009,
+    "name": "Customer_1009",
+    "email": "user_1009@example-omni.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-29T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1010,
+    "name": "Customer_1010",
+    "email": "user_1010@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-22T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1010,
+    "name": "Customer_1010",
+    "email": "user_1010@example-omni.com",
+    "region": "Volga",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-19T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1011,
+    "name": "Customer_1011",
+    "email": "user_1011@example-omni.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-04T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1011,
+    "name": "Customer_1011",
+    "email": "user_1011@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-15T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1012,
+    "name": "Customer_1012",
+    "email": "user_1012@example-omni.com",
+    "region": "Central",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-08T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1013,
+    "name": "Customer_1013",
+    "email": "user_1013@example-omni.com",
+    "region": "Volga",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1013,
+    "name": "Customer_1013",
+    "email": "user_1013@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-28T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1014,
+    "name": "Customer_1014",
+    "email": "user_1014@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-12T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1015,
+    "name": "Customer_1015",
+    "email": "user_1015@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1015,
+    "name": "Customer_1015",
+    "email": "user_1015@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Platinum",
+    "discount_rate": 0.15,
+    "updated_at": "2026-02-11T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1016,
+    "name": "Customer_1016",
+    "email": "user_1016@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1017,
+    "name": "Customer_1017",
+    "email": "user_1017@example-omni.com",
+    "region": "Far East",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-19T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1018,
+    "name": "Customer_1018",
+    "email": "user_1018@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-20T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1018,
+    "name": "Customer_1018",
+    "email": "user_1018@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Gold",
+    "discount_rate": 0.1,
+    "updated_at": "2026-02-26T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1019,
+    "name": "Customer_1019",
+    "email": "user_1019@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-25T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1019,
+    "name": "Customer_1019",
+    "email": "user_1019@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-03-04T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1020,
+    "name": "Customer_1020",
+    "email": "user_1020@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-07T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1021,
+    "name": "Customer_1021",
+    "email": "user_1021@example-omni.com",
+    "region": "Siberia",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-13T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1022,
+    "name": "Customer_1022",
+    "email": "user_1022@example-omni.com",
+    "region": "Ural",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-14T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1022,
+    "name": "Customer_1022",
+    "email": "user_1022@example-omni.com",
+    "region": "Ural",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-23T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1023,
+    "name": "Customer_1023",
+    "email": "user_1023@example-omni.com",
+    "region": "Northwest",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-08T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1024,
+    "name": "Customer_1024",
+    "email": "user_1024@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-27T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1024,
+    "name": "Customer_1024",
+    "email": "user_1024@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-03-20T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  },
+  {
+    "user_id": 1025,
+    "name": "Customer_1025",
+    "email": "user_1025@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Bronze",
+    "discount_rate": 0.0,
+    "updated_at": "2026-01-14T10:00:00+00:00",
+    "batch_id": "batch_initial"
+  },
+  {
+    "user_id": 1025,
+    "name": "Customer_1025",
+    "email": "user_1025@example-omni.com",
+    "region": "South",
+    "loyalty_tier": "Silver",
+    "discount_rate": 0.05,
+    "updated_at": "2026-02-10T10:00:00+00:00",
+    "batch_id": "batch_loyalty_upgrade"
+  }
+]

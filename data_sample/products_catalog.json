@@ -1,0 +1,302 @@
+[
+  {
+    "product_id": 1,
+    "sku": "SKU-SPO-00001",
+    "title": "Sports & Outdoors Item #1",
+    "category": "Sports & Outdoors",
+    "cost_price": 55.16,
+    "base_price": 101.41,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046582+00:00"
+  },
+  {
+    "product_id": 2,
+    "sku": "SKU-APP-00002",
+    "title": "Apparel & Fashion Item #2",
+    "category": "Apparel & Fashion",
+    "cost_price": 8.35,
+    "base_price": 17.12,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046606+00:00"
+  },
+  {
+    "product_id": 3,
+    "sku": "SKU-APP-00003",
+    "title": "Apparel & Fashion Item #3",
+    "category": "Apparel & Fashion",
+    "cost_price": 349.83,
+    "base_price": 742.02,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046614+00:00"
+  },
+  {
+    "product_id": 4,
+    "sku": "SKU-APP-00004",
+    "title": "Apparel & Fashion Item #4",
+    "category": "Apparel & Fashion",
+    "cost_price": 145.18,
+    "base_price": 244.09,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046618+00:00"
+  },
+  {
+    "product_id": 5,
+    "sku": "SKU-SPO-00005",
+    "title": "Sports & Outdoors Item #5",
+    "category": "Sports & Outdoors",
+    "cost_price": 490.86,
+    "base_price": 654.0,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046624+00:00"
+  },
+  {
+    "product_id": 6,
+    "sku": "SKU-SPO-00006",
+    "title": "Sports & Outdoors Item #6",
+    "category": "Sports & Outdoors",
+    "cost_price": 164.63,
+    "base_price": 246.01,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046628+00:00"
+  },
+  {
+    "product_id": 7,
+    "sku": "SKU-GRO-00007",
+    "title": "Groceries & Food Item #7",
+    "category": "Groceries & Food",
+    "cost_price": 554.66,
+    "base_price": 649.94,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046632+00:00"
+  },
+  {
+    "product_id": 8,
+    "sku": "SKU-BEA-00008",
+    "title": "Beauty & Health Item #8",
+    "category": "Beauty & Health",
+    "cost_price": 360.37,
+    "base_price": 601.72,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046637+00:00"
+  },
+  {
+    "product_id": 9,
+    "sku": "SKU-BEA-00009",
+    "title": "Beauty & Health Item #9",
+    "category": "Beauty & Health",
+    "cost_price": 479.36,
+    "base_price": 820.92,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046640+00:00"
+  },
+  {
+    "product_id": 10,
+    "sku": "SKU-GRO-00010",
+    "title": "Groceries & Food Item #10",
+    "category": "Groceries & Food",
+    "cost_price": 375.72,
+    "base_price": 473.61,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046645+00:00"
+  },
+  {
+    "product_id": 11,
+    "sku": "SKU-ELE-00011",
+    "title": "Electronics Item #11",
+    "category": "Electronics",
+    "cost_price": 102.71,
+    "base_price": 144.39,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046649+00:00"
+  },
+  {
+    "product_id": 12,
+    "sku": "SKU-SPO-00012",
+    "title": "Sports & Outdoors Item #12",
+    "category": "Sports & Outdoors",
+    "cost_price": 34.9,
+    "base_price": 50.27,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046654+00:00"
+  },
+  {
+    "product_id": 13,
+    "sku": "SKU-HOM-00013",
+    "title": "Home & Living Item #13",
+    "category": "Home & Living",
+    "cost_price": 309.59,
+    "base_price": 585.05,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046658+00:00"
+  },
+  {
+    "product_id": 14,
+    "sku": "SKU-GRO-00014",
+    "title": "Groceries & Food Item #14",
+    "category": "Groceries & Food",
+    "cost_price": 450.56,
+    "base_price": 526.39,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046663+00:00"
+  },
+  {
+    "product_id": 15,
+    "sku": "SKU-GRO-00015",
+    "title": "Groceries & Food Item #15",
+    "category": "Groceries & Food",
+    "cost_price": 180.22,
+    "base_price": 219.11,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046670+00:00"
+  },
+  {
+    "product_id": 16,
+    "sku": "SKU-SPO-00016",
+    "title": "Sports & Outdoors Item #16",
+    "category": "Sports & Outdoors",
+    "cost_price": 363.99,
+    "base_price": 498.88,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046675+00:00"
+  },
+  {
+    "product_id": 17,
+    "sku": "SKU-GRO-00017",
+    "title": "Groceries & Food Item #17",
+    "category": "Groceries & Food",
+    "cost_price": 111.09,
+    "base_price": 125.81,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046679+00:00"
+  },
+  {
+    "product_id": 18,
+    "sku": "SKU-APP-00018",
+    "title": "Apparel & Fashion Item #18",
+    "category": "Apparel & Fashion",
+    "cost_price": 75.96,
+    "base_price": 158.17,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046685+00:00"
+  },
+  {
+    "product_id": 19,
+    "sku": "SKU-APP-00019",
+    "title": "Apparel & Fashion Item #19",
+    "category": "Apparel & Fashion",
+    "cost_price": 207.48,
+    "base_price": 588.11,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046688+00:00"
+  },
+  {
+    "product_id": 20,
+    "sku": "SKU-ELE-00020",
+    "title": "Electronics Item #20",
+    "category": "Electronics",
+    "cost_price": 68.12,
+    "base_price": 117.53,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046693+00:00"
+  },
+  {
+    "product_id": 21,
+    "sku": "SKU-ELE-00021",
+    "title": "Electronics Item #21",
+    "category": "Electronics",
+    "cost_price": 105.18,
+    "base_price": 166.58,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046696+00:00"
+  },
+  {
+    "product_id": 22,
+    "sku": "SKU-HOM-00022",
+    "title": "Home & Living Item #22",
+    "category": "Home & Living",
+    "cost_price": 369.84,
+    "base_price": 557.7,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046700+00:00"
+  },
+  {
+    "product_id": 23,
+    "sku": "SKU-APP-00023",
+    "title": "Apparel & Fashion Item #23",
+    "category": "Apparel & Fashion",
+    "cost_price": 166.66,
+    "base_price": 407.45,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046704+00:00"
+  },
+  {
+    "product_id": 24,
+    "sku": "SKU-GRO-00024",
+    "title": "Groceries & Food Item #24",
+    "category": "Groceries & Food",
+    "cost_price": 29.67,
+    "base_price": 33.16,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046708+00:00"
+  },
+  {
+    "product_id": 25,
+    "sku": "SKU-BEA-00025",
+    "title": "Beauty & Health Item #25",
+    "category": "Beauty & Health",
+    "cost_price": 127.36,
+    "base_price": 236.0,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046712+00:00"
+  },
+  {
+    "product_id": 26,
+    "sku": "SKU-SPO-00026",
+    "title": "Sports & Outdoors Item #26",
+    "category": "Sports & Outdoors",
+    "cost_price": 366.38,
+    "base_price": 481.68,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046718+00:00"
+  },
+  {
+    "product_id": 27,
+    "sku": "SKU-BEA-00027",
+    "title": "Beauty & Health Item #27",
+    "category": "Beauty & Health",
+    "cost_price": 388.18,
+    "base_price": 656.67,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046722+00:00"
+  },
+  {
+    "product_id": 28,
+    "sku": "SKU-GRO-00028",
+    "title": "Groceries & Food Item #28",
+    "category": "Groceries & Food",
+    "cost_price": 395.54,
+    "base_price": 518.64,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046726+00:00"
+  },
+  {
+    "product_id": 29,
+    "sku": "SKU-SPO-00029",
+    "title": "Sports & Outdoors Item #29",
+    "category": "Sports & Outdoors",
+    "cost_price": 180.05,
+    "base_price": 264.18,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046730+00:00"
+  },
+  {
+    "product_id": 30,
+    "sku": "SKU-SPO-00030",
+    "title": "Sports & Outdoors Item #30",
+    "category": "Sports & Outdoors",
+    "cost_price": 92.48,
+    "base_price": 130.53,
+    "is_active": true,
+    "updated_at": "2026-10-15T12:22:55.046734+00:00"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "order_id": 50001,
+    "user_id": 1013,
+    "order_timestamp": "2026-10-15 07:49:37",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50002,
+    "user_id": 1021,
+    "order_timestamp": "2026-10-15 06:31:35",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50003,
+    "user_id": 1005,
+    "order_timestamp": "2026-10-15 06:46:03",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50004,
+    "user_id": 1015,
+    "order_timestamp": "2026-10-13 22:03:33",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50005,
+    "user_id": 1015,
+    "order_timestamp": "2026-10-13 22:02:07",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50006,
+    "user_id": 1015,
+    "order_timestamp": "2026-10-14 09:39:14",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50007,
+    "user_id": 1025,
+    "order_timestamp": "2026-10-14 11:30:02",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50008,
+    "user_id": 1002,
+    "order_timestamp": "2026-10-15 03:01:59",
+    "status": "REFUNDED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50009,
+    "user_id": 1022,
+    "order_timestamp": "2026-10-14 13:55:35",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50010,
+    "user_id": 1022,
+    "order_timestamp": "2026-10-15 00:01:18",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50011,
+    "user_id": 1025,
+    "order_timestamp": "2026-10-15 07:03:37",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50012,
+    "user_id": 1005,
+    "order_timestamp": "2026-10-14 01:30:41",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50013,
+    "user_id": 1023,
+    "order_timestamp": "2026-10-14 02:47:30",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50014,
+    "user_id": 1009,
+    "order_timestamp": "2026-10-13 19:40:53",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50015,
+    "user_id": 1015,
+    "order_timestamp": "2026-10-14 20:15:05",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50016,
+    "user_id": 1002,
+    "order_timestamp": "2026-10-15 05:30:48",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50017,
+    "user_id": 1021,
+    "order_timestamp": "2026-10-14 00:24:52",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50018,
+    "user_id": 1015,
+    "order_timestamp": "2026-10-14 22:11:39",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50019,
+    "user_id": 1018,
+    "order_timestamp": "2026-10-14 05:34:45",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50020,
+    "user_id": 1006,
+    "order_timestamp": "2026-10-14 13:48:21",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50021,
+    "user_id": 1019,
+    "order_timestamp": "2026-10-14 04:12:55",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  },
+  {
+    "order_id": 50022,
+    "user_id": 1003,
+    "order_timestamp": "2026-10-15 01:47:37",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_stream_cdc"
+  }
+]

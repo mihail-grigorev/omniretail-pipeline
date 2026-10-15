@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data exports and local artifacts
+data_sample/export_gp_*
+data_sample/export_clickhouse_*
+*.parquet
+*.log
+
+# Environment variables & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker volume data mounts if persisted locally
+docker-data/
+ch_data/
+gp_data/
+minio_data/

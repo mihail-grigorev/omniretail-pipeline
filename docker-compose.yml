@@ -1,0 +1,115 @@
+name: omniretail
+
+services:
+  # Real-time OLAP layer for high-throughput clickstream and sub-second pricing queries
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: omni_clickhouse
+    ports:
+      - "8123:8123" # HTTP API
+      - "9000:9000" # Native TCP client
+    environment:
+      CLICKHOUSE_DB: omniretail
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: ""
+    volumes:
+      - ch_data:/var/lib/clickhouse
+      - ./sql/clickhouse:/docker-entrypoint-initdb.d
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    restart: unless-stopped
+
+  # Core transactional data warehouse (emulated via PostgreSQL 16 with MPP schemas)
+  greenplum:
+    image: postgres:16-alpine
+    container_name: omni_greenplum_dwh
+    ports:
+      - "5435:5432"
+    environment:
+      POSTGRES_DB: greenplum_dwh
+      POSTGRES_USER: gpadmin
+      POSTGRES_PASSWORD: pivotal
+    volumes:
+      - gp_data:/var/lib/postgresql/data
+      - ./sql/greenplum:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+  # Object storage lake for partitioned parquet archives and staging
+  minio:
+    image: pgsty/minio:latest
+    container_name: omni_minio_s3
+    ports:
+      - "9001:9001" # Web console
+      - "9002:9000" # S3 API
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    restart: unless-stopped
+
+  # Distributed processing engine for SCD2 history and unit economics aggregation
+  spark-master:
+    image: bitnamilegacy/spark:3.5.1
+    container_name: omni_spark_master
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    ports:
+      - "8085:8080" # Spark Web UI
+      - "7077:7077" # RPC
+    volumes:
+      - ./scripts/spark:/opt/bitnami/spark/jobs
+      - ./data_sample:/opt/bitnami/spark/data
+    restart: unless-stopped
+
+  spark-worker:
+    image: bitnamilegacy/spark:3.5.1
+    container_name: omni_spark_worker
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=2G
+      - SPARK_WORKER_CORES=2
+    restart: unless-stopped
+
+  # Streaming event backbone
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: omni_zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: omni_kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://kafka:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT_INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+volumes:
+  ch_data:
+  gp_data:
+  minio_data:

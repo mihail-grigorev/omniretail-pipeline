@@ -1,0 +1,802 @@
+[
+  {
+    "order_id": 50001,
+    "user_id": 1036,
+    "order_timestamp": "2026-10-14 06:52:52",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50002,
+    "user_id": 1020,
+    "order_timestamp": "2026-10-14 17:36:16",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50003,
+    "user_id": 1023,
+    "order_timestamp": "2026-10-13 15:48:35",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50004,
+    "user_id": 1032,
+    "order_timestamp": "2026-10-13 18:23:45",
+    "status": "REFUNDED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50005,
+    "user_id": 1078,
+    "order_timestamp": "2026-10-13 13:18:41",
+    "status": "REFUNDED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50006,
+    "user_id": 1006,
+    "order_timestamp": "2026-10-15 04:43:03",
+    "status": "REFUNDED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50007,
+    "user_id": 1012,
+    "order_timestamp": "2026-10-14 14:28:42",
+    "status": "CANCELLED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50008,
+    "user_id": 1043,
+    "order_timestamp": "2026-10-14 17:38:48",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50009,
+    "user_id": 1043,
+    "order_timestamp": "2026-10-14 17:39:00",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50010,
+    "user_id": 1011,
+    "order_timestamp": "2026-10-14 19:31:09",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50011,
+    "user_id": 1047,
+    "order_timestamp": "2026-10-14 01:51:24",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50012,
+    "user_id": 1061,
+    "order_timestamp": "2026-10-14 19:15:34",
+    "status": "REFUNDED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50013,
+    "user_id": 1062,
+    "order_timestamp": "2026-10-13 20:25:31",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50014,
+    "user_id": 1047,
+    "order_timestamp": "2026-10-14 20:31:54",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50015,
+    "user_id": 1034,
+    "order_timestamp": "2026-10-14 17:03:54",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50016,
+    "user_id": 1030,
+    "order_timestamp": "2026-10-14 12:29:53",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50017,
+    "user_id": 1030,
+    "order_timestamp": "2026-10-14 12:27:03",
+    "status": "REFUNDED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50018,
+    "user_id": 1080,
+    "order_timestamp": "2026-10-13 19:27:47",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50019,
+    "user_id": 1053,
+    "order_timestamp": "2026-10-14 06:44:12",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50020,
+    "user_id": 1046,
+    "order_timestamp": "2026-10-15 09:53:11",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50021,
+    "user_id": 1002,
+    "order_timestamp": "2026-10-14 22:21:53",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50022,
+    "user_id": 1035,
+    "order_timestamp": "2026-10-14 12:20:15",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50023,
+    "user_id": 1035,
+    "order_timestamp": "2026-10-14 12:16:56",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50024,
+    "user_id": 1054,
+    "order_timestamp": "2026-10-15 06:59:34",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50025,
+    "user_id": 1046,
+    "order_timestamp": "2026-10-13 16:48:27",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50026,
+    "user_id": 1062,
+    "order_timestamp": "2026-10-15 02:55:08",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50027,
+    "user_id": 1002,
+    "order_timestamp": "2026-10-14 00:21:33",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50028,
+    "user_id": 1032,
+    "order_timestamp": "2026-10-15 11:35:29",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50029,
+    "user_id": 1041,
+    "order_timestamp": "2026-10-15 02:33:04",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50030,
+    "user_id": 1041,
+    "order_timestamp": "2026-10-15 02:34:01",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50031,
+    "user_id": 1071,
+    "order_timestamp": "2026-10-14 15:02:24",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50032,
+    "user_id": 1030,
+    "order_timestamp": "2026-10-14 07:47:10",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50033,
+    "user_id": 1056,
+    "order_timestamp": "2026-10-15 01:43:54",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50034,
+    "user_id": 1021,
+    "order_timestamp": "2026-10-14 06:54:30",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50035,
+    "user_id": 1071,
+    "order_timestamp": "2026-10-14 17:33:43",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50036,
+    "user_id": 1071,
+    "order_timestamp": "2026-10-14 17:34:08",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50037,
+    "user_id": 1013,
+    "order_timestamp": "2026-10-15 00:48:52",
+    "status": "PAID",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50038,
+    "user_id": 1073,
+    "order_timestamp": "2026-10-14 16:13:49",
+    "status": "REFUNDED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50039,
+    "user_id": 1079,
+    "order_timestamp": "2026-10-15 10:37:42",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50040,
+    "user_id": 1019,
+    "order_timestamp": "2026-10-13 17:17:03",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50041,
+    "user_id": 1076,
+    "order_timestamp": "2026-10-13 17:09:38",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50042,
+    "user_id": 1076,
+    "order_timestamp": "2026-10-13 17:08:06",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50043,
+    "user_id": 1034,
+    "order_timestamp": "2026-10-15 02:20:40",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50044,
+    "user_id": 1013,
+    "order_timestamp": "2026-10-13 20:08:56",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50045,
+    "user_id": 1025,
+    "order_timestamp": "2026-10-14 11:30:56",
+    "status": "CANCELLED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50046,
+    "user_id": 1060,
+    "order_timestamp": "2026-10-15 08:59:12",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50047,
+    "user_id": 1060,
+    "order_timestamp": "2026-10-15 08:56:29",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50048,
+    "user_id": 1066,
+    "order_timestamp": "2026-10-14 22:10:17",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50049,
+    "user_id": 1071,
+    "order_timestamp": "2026-10-14 19:43:27",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50050,
+    "user_id": 1018,
+    "order_timestamp": "2026-10-13 12:34:08",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50051,
+    "user_id": 1012,
+    "order_timestamp": "2026-10-13 21:00:40",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50052,
+    "user_id": 1012,
+    "order_timestamp": "2026-10-13 21:00:42",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50053,
+    "user_id": 1031,
+    "order_timestamp": "2026-10-14 08:53:00",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50054,
+    "user_id": 1039,
+    "order_timestamp": "2026-10-14 07:31:59",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50055,
+    "user_id": 1074,
+    "order_timestamp": "2026-10-15 04:21:05",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50056,
+    "user_id": 1058,
+    "order_timestamp": "2026-10-15 00:57:04",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50057,
+    "user_id": 1012,
+    "order_timestamp": "2026-10-14 12:16:20",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50058,
+    "user_id": 1022,
+    "order_timestamp": "2026-10-13 18:13:23",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50059,
+    "user_id": 1022,
+    "order_timestamp": "2026-10-13 18:12:44",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50060,
+    "user_id": 1065,
+    "order_timestamp": "2026-10-14 06:45:28",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50061,
+    "user_id": 1014,
+    "order_timestamp": "2026-10-14 10:32:15",
+    "status": "CANCELLED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50062,
+    "user_id": 1062,
+    "order_timestamp": "2026-10-14 00:28:33",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50063,
+    "user_id": 1033,
+    "order_timestamp": "2026-10-14 03:50:03",
+    "status": "PAID",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50064,
+    "user_id": 1038,
+    "order_timestamp": "2026-10-14 23:21:30",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50065,
+    "user_id": 1001,
+    "order_timestamp": "2026-10-15 08:58:27",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50066,
+    "user_id": 1001,
+    "order_timestamp": "2026-10-15 08:57:52",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50067,
+    "user_id": 1025,
+    "order_timestamp": "2026-10-14 13:00:45",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50068,
+    "user_id": 1049,
+    "order_timestamp": "2026-10-13 17:32:06",
+    "status": "REFUNDED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50069,
+    "user_id": 1078,
+    "order_timestamp": "2026-10-13 12:38:12",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50070,
+    "user_id": 1006,
+    "order_timestamp": "2026-10-15 01:06:11",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50071,
+    "user_id": 1051,
+    "order_timestamp": "2026-10-14 20:20:58",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50072,
+    "user_id": 1071,
+    "order_timestamp": "2026-10-14 03:09:07",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50073,
+    "user_id": 1010,
+    "order_timestamp": "2026-10-15 08:10:53",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50074,
+    "user_id": 1050,
+    "order_timestamp": "2026-10-14 07:33:44",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50075,
+    "user_id": 1039,
+    "order_timestamp": "2026-10-13 19:59:48",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50076,
+    "user_id": 1022,
+    "order_timestamp": "2026-10-14 19:57:53",
+    "status": "PAID",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50077,
+    "user_id": 1022,
+    "order_timestamp": "2026-10-14 19:56:14",
+    "status": "CANCELLED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50078,
+    "user_id": 1052,
+    "order_timestamp": "2026-10-15 08:44:46",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50079,
+    "user_id": 1026,
+    "order_timestamp": "2026-10-14 22:20:29",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50080,
+    "user_id": 1013,
+    "order_timestamp": "2026-10-13 23:19:38",
+    "status": "PAID",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50081,
+    "user_id": 1033,
+    "order_timestamp": "2026-10-13 19:43:43",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50082,
+    "user_id": 1007,
+    "order_timestamp": "2026-10-13 14:06:59",
+    "status": "PAID",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50083,
+    "user_id": 1039,
+    "order_timestamp": "2026-10-15 11:34:02",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50084,
+    "user_id": 1016,
+    "order_timestamp": "2026-10-13 19:51:51",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50085,
+    "user_id": 1016,
+    "order_timestamp": "2026-10-13 19:51:00",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50086,
+    "user_id": 1044,
+    "order_timestamp": "2026-10-14 11:20:50",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50087,
+    "user_id": 1001,
+    "order_timestamp": "2026-10-14 17:11:53",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50088,
+    "user_id": 1051,
+    "order_timestamp": "2026-10-14 12:25:55",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50089,
+    "user_id": 1023,
+    "order_timestamp": "2026-10-13 20:54:35",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50090,
+    "user_id": 1069,
+    "order_timestamp": "2026-10-14 08:54:34",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50091,
+    "user_id": 1009,
+    "order_timestamp": "2026-10-14 09:58:28",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50092,
+    "user_id": 1009,
+    "order_timestamp": "2026-10-14 09:55:43",
+    "status": "PAID",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50093,
+    "user_id": 1069,
+    "order_timestamp": "2026-10-13 13:35:13",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50094,
+    "user_id": 1069,
+    "order_timestamp": "2026-10-13 13:35:13",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50095,
+    "user_id": 1064,
+    "order_timestamp": "2026-10-13 22:05:18",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50096,
+    "user_id": 1038,
+    "order_timestamp": "2026-10-14 13:37:59",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50097,
+    "user_id": 1042,
+    "order_timestamp": "2026-10-15 11:43:56",
+    "status": "DELIVERED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50098,
+    "user_id": 1046,
+    "order_timestamp": "2026-10-14 13:11:13",
+    "status": "REFUNDED",
+    "delivery_cost": 0.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50099,
+    "user_id": 1066,
+    "order_timestamp": "2026-10-13 13:55:00",
+    "status": "DELIVERED",
+    "delivery_cost": 12.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "order_id": 50100,
+    "user_id": 1017,
+    "order_timestamp": "2026-10-14 02:15:45",
+    "status": "DELIVERED",
+    "delivery_cost": 5.0,
+    "batch_id": "batch_cdc"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "item_id": 90001,
+    "order_id": 50001,
+    "product_id": 1,
+    "quantity": 1,
+    "unit_price": 101.41,
+    "discount_amount": 0.0,
+    "tax_amount": 10.14,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90002,
+    "order_id": 50002,
+    "product_id": 8,
+    "quantity": 2,
+    "unit_price": 601.72,
+    "discount_amount": 60.17,
+    "tax_amount": 114.33,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90003,
+    "order_id": 50003,
+    "product_id": 13,
+    "quantity": 3,
+    "unit_price": 585.05,
+    "discount_amount": 58.5,
+    "tax_amount": 169.66,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90004,
+    "order_id": 50004,
+    "product_id": 12,
+    "quantity": 1,
+    "unit_price": 50.27,
+    "discount_amount": 0.0,
+    "tax_amount": 5.03,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90005,
+    "order_id": 50005,
+    "product_id": 28,
+    "quantity": 3,
+    "unit_price": 518.64,
+    "discount_amount": 51.86,
+    "tax_amount": 150.41,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90006,
+    "order_id": 50006,
+    "product_id": 30,
+    "quantity": 3,
+    "unit_price": 130.53,
+    "discount_amount": 0.0,
+    "tax_amount": 39.16,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90007,
+    "order_id": 50007,
+    "product_id": 5,
+    "quantity": 3,
+    "unit_price": 654.0,
+    "discount_amount": 32.7,
+    "tax_amount": 192.93,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90008,
+    "order_id": 50008,
+    "product_id": 21,
+    "quantity": 2,
+    "unit_price": 166.58,
+    "discount_amount": 8.33,
+    "tax_amount": 32.48,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90009,
+    "order_id": 50009,
+    "product_id": 10,
+    "quantity": 3,
+    "unit_price": 473.61,
+    "discount_amount": 23.68,
+    "tax_amount": 139.72,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90010,
+    "order_id": 50010,
+    "product_id": 13,
+    "quantity": 3,
+    "unit_price": 585.05,
+    "discount_amount": 0.0,
+    "tax_amount": 175.51,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90011,
+    "order_id": 50011,
+    "product_id": 9,
+    "quantity": 2,
+    "unit_price": 820.92,
+    "discount_amount": 0.0,
+    "tax_amount": 164.18,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90012,
+    "order_id": 50012,
+    "product_id": 30,
+    "quantity": 1,
+    "unit_price": 130.53,
+    "discount_amount": 13.05,
+    "tax_amount": 11.75,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90013,
+    "order_id": 50013,
+    "product_id": 9,
+    "quantity": 2,
+    "unit_price": 820.92,
+    "discount_amount": 41.05,
+    "tax_amount": 160.08,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90014,
+    "order_id": 50014,
+    "product_id": 25,
+    "quantity": 1,
+    "unit_price": 236.0,
+    "discount_amount": 23.6,
+    "tax_amount": 21.24,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90015,
+    "order_id": 50015,
+    "product_id": 14,
+    "quantity": 3,
+    "unit_price": 526.39,
+    "discount_amount": 52.64,
+    "tax_amount": 152.65,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90016,
+    "order_id": 50016,
+    "product_id": 24,
+    "quantity": 1,
+    "unit_price": 33.16,
+    "discount_amount": 3.32,
+    "tax_amount": 2.98,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90017,
+    "order_id": 50017,
+    "product_id": 23,
+    "quantity": 2,
+    "unit_price": 407.45,
+    "discount_amount": 40.75,
+    "tax_amount": 77.42,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90018,
+    "order_id": 50018,
+    "product_id": 6,
+    "quantity": 1,
+    "unit_price": 246.01,
+    "discount_amount": 24.6,
+    "tax_amount": 22.14,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90019,
+    "order_id": 50019,
+    "product_id": 30,
+    "quantity": 3,
+    "unit_price": 130.53,
+    "discount_amount": 6.53,
+    "tax_amount": 38.51,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90020,
+    "order_id": 50020,
+    "product_id": 13,
+    "quantity": 2,
+    "unit_price": 585.05,
+    "discount_amount": 58.5,
+    "tax_amount": 111.16,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90021,
+    "order_id": 50021,
+    "product_id": 6,
+    "quantity": 2,
+    "unit_price": 246.01,
+    "discount_amount": 24.6,
+    "tax_amount": 46.74,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90022,
+    "order_id": 50022,
+    "product_id": 14,
+    "quantity": 2,
+    "unit_price": 526.39,
+    "discount_amount": 52.64,
+    "tax_amount": 100.01,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90023,
+    "order_id": 50023,
+    "product_id": 11,
+    "quantity": 3,
+    "unit_price": 144.39,
+    "discount_amount": 7.22,
+    "tax_amount": 42.59,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90024,
+    "order_id": 50024,
+    "product_id": 10,
+    "quantity": 2,
+    "unit_price": 473.61,
+    "discount_amount": 47.36,
+    "tax_amount": 89.99,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90025,
+    "order_id": 50025,
+    "product_id": 10,
+    "quantity": 2,
+    "unit_price": 473.61,
+    "discount_amount": 0.0,
+    "tax_amount": 94.72,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90026,
+    "order_id": 50026,
+    "product_id": 12,
+    "quantity": 3,
+    "unit_price": 50.27,
+    "discount_amount": 0.0,
+    "tax_amount": 15.08,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90027,
+    "order_id": 50027,
+    "product_id": 23,
+    "quantity": 3,
+    "unit_price": 407.45,
+    "discount_amount": 20.37,
+    "tax_amount": 120.2,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90028,
+    "order_id": 50028,
+    "product_id": 10,
+    "quantity": 1,
+    "unit_price": 473.61,
+    "discount_amount": 47.36,
+    "tax_amount": 42.62,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90029,
+    "order_id": 50029,
+    "product_id": 1,
+    "quantity": 1,
+    "unit_price": 101.41,
+    "discount_amount": 0.0,
+    "tax_amount": 10.14,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90030,
+    "order_id": 50030,
+    "product_id": 28,
+    "quantity": 1,
+    "unit_price": 518.64,
+    "discount_amount": 51.86,
+    "tax_amount": 46.68,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90031,
+    "order_id": 50031,
+    "product_id": 12,
+    "quantity": 3,
+    "unit_price": 50.27,
+    "discount_amount": 2.51,
+    "tax_amount": 14.83,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90032,
+    "order_id": 50032,
+    "product_id": 18,
+    "quantity": 1,
+    "unit_price": 158.17,
+    "discount_amount": 7.91,
+    "tax_amount": 15.03,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90033,
+    "order_id": 50033,
+    "product_id": 18,
+    "quantity": 3,
+    "unit_price": 158.17,
+    "discount_amount": 7.91,
+    "tax_amount": 46.66,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90034,
+    "order_id": 50034,
+    "product_id": 30,
+    "quantity": 1,
+    "unit_price": 130.53,
+    "discount_amount": 13.05,
+    "tax_amount": 11.75,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90035,
+    "order_id": 50035,
+    "product_id": 15,
+    "quantity": 3,
+    "unit_price": 219.11,
+    "discount_amount": 0.0,
+    "tax_amount": 65.73,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90036,
+    "order_id": 50036,
+    "product_id": 28,
+    "quantity": 2,
+    "unit_price": 518.64,
+    "discount_amount": 25.93,
+    "tax_amount": 101.14,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90037,
+    "order_id": 50037,
+    "product_id": 26,
+    "quantity": 2,
+    "unit_price": 481.68,
+    "discount_amount": 24.08,
+    "tax_amount": 93.93,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90038,
+    "order_id": 50038,
+    "product_id": 16,
+    "quantity": 2,
+    "unit_price": 498.88,
+    "discount_amount": 24.94,
+    "tax_amount": 97.28,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90039,
+    "order_id": 50039,
+    "product_id": 13,
+    "quantity": 3,
+    "unit_price": 585.05,
+    "discount_amount": 29.25,
+    "tax_amount": 172.59,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90040,
+    "order_id": 50040,
+    "product_id": 21,
+    "quantity": 1,
+    "unit_price": 166.58,
+    "discount_amount": 8.33,
+    "tax_amount": 15.83,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90041,
+    "order_id": 50041,
+    "product_id": 20,
+    "quantity": 2,
+    "unit_price": 117.53,
+    "discount_amount": 0.0,
+    "tax_amount": 23.51,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90042,
+    "order_id": 50042,
+    "product_id": 12,
+    "quantity": 2,
+    "unit_price": 50.27,
+    "discount_amount": 2.51,
+    "tax_amount": 9.8,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90043,
+    "order_id": 50043,
+    "product_id": 23,
+    "quantity": 3,
+    "unit_price": 407.45,
+    "discount_amount": 40.75,
+    "tax_amount": 118.16,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90044,
+    "order_id": 50044,
+    "product_id": 4,
+    "quantity": 1,
+    "unit_price": 244.09,
+    "discount_amount": 24.41,
+    "tax_amount": 21.97,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90045,
+    "order_id": 50045,
+    "product_id": 30,
+    "quantity": 3,
+    "unit_price": 130.53,
+    "discount_amount": 6.53,
+    "tax_amount": 38.51,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90046,
+    "order_id": 50046,
+    "product_id": 1,
+    "quantity": 1,
+    "unit_price": 101.41,
+    "discount_amount": 0.0,
+    "tax_amount": 10.14,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90047,
+    "order_id": 50047,
+    "product_id": 27,
+    "quantity": 2,
+    "unit_price": 656.67,
+    "discount_amount": 32.83,
+    "tax_amount": 128.05,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90048,
+    "order_id": 50048,
+    "product_id": 27,
+    "quantity": 1,
+    "unit_price": 656.67,
+    "discount_amount": 32.83,
+    "tax_amount": 62.38,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90049,
+    "order_id": 50049,
+    "product_id": 30,
+    "quantity": 2,
+    "unit_price": 130.53,
+    "discount_amount": 0.0,
+    "tax_amount": 26.11,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90050,
+    "order_id": 50050,
+    "product_id": 19,
+    "quantity": 2,
+    "unit_price": 588.11,
+    "discount_amount": 58.81,
+    "tax_amount": 111.74,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90051,
+    "order_id": 50051,
+    "product_id": 13,
+    "quantity": 2,
+    "unit_price": 585.05,
+    "discount_amount": 0.0,
+    "tax_amount": 117.01,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90052,
+    "order_id": 50052,
+    "product_id": 5,
+    "quantity": 2,
+    "unit_price": 654.0,
+    "discount_amount": 32.7,
+    "tax_amount": 127.53,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90053,
+    "order_id": 50053,
+    "product_id": 24,
+    "quantity": 3,
+    "unit_price": 33.16,
+    "discount_amount": 0.0,
+    "tax_amount": 9.95,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90054,
+    "order_id": 50054,
+    "product_id": 28,
+    "quantity": 3,
+    "unit_price": 518.64,
+    "discount_amount": 0.0,
+    "tax_amount": 155.59,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90055,
+    "order_id": 50055,
+    "product_id": 18,
+    "quantity": 3,
+    "unit_price": 158.17,
+    "discount_amount": 7.91,
+    "tax_amount": 46.66,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90056,
+    "order_id": 50056,
+    "product_id": 27,
+    "quantity": 3,
+    "unit_price": 656.67,
+    "discount_amount": 65.67,
+    "tax_amount": 190.43,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90057,
+    "order_id": 50057,
+    "product_id": 17,
+    "quantity": 2,
+    "unit_price": 125.81,
+    "discount_amount": 0.0,
+    "tax_amount": 25.16,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90058,
+    "order_id": 50058,
+    "product_id": 17,
+    "quantity": 3,
+    "unit_price": 125.81,
+    "discount_amount": 12.58,
+    "tax_amount": 36.49,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90059,
+    "order_id": 50059,
+    "product_id": 11,
+    "quantity": 3,
+    "unit_price": 144.39,
+    "discount_amount": 14.44,
+    "tax_amount": 41.87,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90060,
+    "order_id": 50060,
+    "product_id": 12,
+    "quantity": 3,
+    "unit_price": 50.27,
+    "discount_amount": 0.0,
+    "tax_amount": 15.08,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90061,
+    "order_id": 50061,
+    "product_id": 27,
+    "quantity": 2,
+    "unit_price": 656.67,
+    "discount_amount": 32.83,
+    "tax_amount": 128.05,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90062,
+    "order_id": 50062,
+    "product_id": 21,
+    "quantity": 3,
+    "unit_price": 166.58,
+    "discount_amount": 16.66,
+    "tax_amount": 48.31,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90063,
+    "order_id": 50063,
+    "product_id": 19,
+    "quantity": 1,
+    "unit_price": 588.11,
+    "discount_amount": 29.41,
+    "tax_amount": 55.87,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90064,
+    "order_id": 50064,
+    "product_id": 16,
+    "quantity": 2,
+    "unit_price": 498.88,
+    "discount_amount": 24.94,
+    "tax_amount": 97.28,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90065,
+    "order_id": 50065,
+    "product_id": 30,
+    "quantity": 1,
+    "unit_price": 130.53,
+    "discount_amount": 13.05,
+    "tax_amount": 11.75,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90066,
+    "order_id": 50066,
+    "product_id": 10,
+    "quantity": 3,
+    "unit_price": 473.61,
+    "discount_amount": 47.36,
+    "tax_amount": 137.35,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90067,
+    "order_id": 50067,
+    "product_id": 19,
+    "quantity": 2,
+    "unit_price": 588.11,
+    "discount_amount": 58.81,
+    "tax_amount": 111.74,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90068,
+    "order_id": 50068,
+    "product_id": 28,
+    "quantity": 3,
+    "unit_price": 518.64,
+    "discount_amount": 25.93,
+    "tax_amount": 153.0,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90069,
+    "order_id": 50069,
+    "product_id": 3,
+    "quantity": 1,
+    "unit_price": 742.02,
+    "discount_amount": 74.2,
+    "tax_amount": 66.78,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90070,
+    "order_id": 50070,
+    "product_id": 18,
+    "quantity": 1,
+    "unit_price": 158.17,
+    "discount_amount": 7.91,
+    "tax_amount": 15.03,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90071,
+    "order_id": 50071,
+    "product_id": 21,
+    "quantity": 3,
+    "unit_price": 166.58,
+    "discount_amount": 0.0,
+    "tax_amount": 49.97,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90072,
+    "order_id": 50072,
+    "product_id": 15,
+    "quantity": 2,
+    "unit_price": 219.11,
+    "discount_amount": 0.0,
+    "tax_amount": 43.82,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90073,
+    "order_id": 50073,
+    "product_id": 9,
+    "quantity": 2,
+    "unit_price": 820.92,
+    "discount_amount": 82.09,
+    "tax_amount": 155.98,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90074,
+    "order_id": 50074,
+    "product_id": 14,
+    "quantity": 2,
+    "unit_price": 526.39,
+    "discount_amount": 0.0,
+    "tax_amount": 105.28,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90075,
+    "order_id": 50075,
+    "product_id": 6,
+    "quantity": 1,
+    "unit_price": 246.01,
+    "discount_amount": 0.0,
+    "tax_amount": 24.6,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90076,
+    "order_id": 50076,
+    "product_id": 9,
+    "quantity": 1,
+    "unit_price": 820.92,
+    "discount_amount": 0.0,
+    "tax_amount": 82.09,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90077,
+    "order_id": 50077,
+    "product_id": 5,
+    "quantity": 1,
+    "unit_price": 654.0,
+    "discount_amount": 32.7,
+    "tax_amount": 62.13,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90078,
+    "order_id": 50078,
+    "product_id": 30,
+    "quantity": 1,
+    "unit_price": 130.53,
+    "discount_amount": 6.53,
+    "tax_amount": 12.4,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90079,
+    "order_id": 50079,
+    "product_id": 25,
+    "quantity": 1,
+    "unit_price": 236.0,
+    "discount_amount": 23.6,
+    "tax_amount": 21.24,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90080,
+    "order_id": 50080,
+    "product_id": 21,
+    "quantity": 3,
+    "unit_price": 166.58,
+    "discount_amount": 16.66,
+    "tax_amount": 48.31,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90081,
+    "order_id": 50081,
+    "product_id": 8,
+    "quantity": 1,
+    "unit_price": 601.72,
+    "discount_amount": 0.0,
+    "tax_amount": 60.17,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90082,
+    "order_id": 50082,
+    "product_id": 18,
+    "quantity": 1,
+    "unit_price": 158.17,
+    "discount_amount": 0.0,
+    "tax_amount": 15.82,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90083,
+    "order_id": 50083,
+    "product_id": 30,
+    "quantity": 3,
+    "unit_price": 130.53,
+    "discount_amount": 6.53,
+    "tax_amount": 38.51,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90084,
+    "order_id": 50084,
+    "product_id": 18,
+    "quantity": 2,
+    "unit_price": 158.17,
+    "discount_amount": 0.0,
+    "tax_amount": 31.63,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90085,
+    "order_id": 50085,
+    "product_id": 29,
+    "quantity": 3,
+    "unit_price": 264.18,
+    "discount_amount": 26.42,
+    "tax_amount": 76.61,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90086,
+    "order_id": 50086,
+    "product_id": 14,
+    "quantity": 1,
+    "unit_price": 526.39,
+    "discount_amount": 52.64,
+    "tax_amount": 47.38,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90087,
+    "order_id": 50087,
+    "product_id": 17,
+    "quantity": 1,
+    "unit_price": 125.81,
+    "discount_amount": 0.0,
+    "tax_amount": 12.58,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90088,
+    "order_id": 50088,
+    "product_id": 2,
+    "quantity": 2,
+    "unit_price": 17.12,
+    "discount_amount": 0.0,
+    "tax_amount": 3.42,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90089,
+    "order_id": 50089,
+    "product_id": 6,
+    "quantity": 1,
+    "unit_price": 246.01,
+    "discount_amount": 0.0,
+    "tax_amount": 24.6,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90090,
+    "order_id": 50090,
+    "product_id": 10,
+    "quantity": 2,
+    "unit_price": 473.61,
+    "discount_amount": 47.36,
+    "tax_amount": 89.99,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90091,
+    "order_id": 50091,
+    "product_id": 22,
+    "quantity": 1,
+    "unit_price": 557.7,
+    "discount_amount": 55.77,
+    "tax_amount": 50.19,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90092,
+    "order_id": 50092,
+    "product_id": 10,
+    "quantity": 1,
+    "unit_price": 473.61,
+    "discount_amount": 23.68,
+    "tax_amount": 44.99,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90093,
+    "order_id": 50093,
+    "product_id": 3,
+    "quantity": 1,
+    "unit_price": 742.02,
+    "discount_amount": 0.0,
+    "tax_amount": 74.2,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90094,
+    "order_id": 50094,
+    "product_id": 20,
+    "quantity": 3,
+    "unit_price": 117.53,
+    "discount_amount": 11.75,
+    "tax_amount": 34.08,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90095,
+    "order_id": 50095,
+    "product_id": 24,
+    "quantity": 2,
+    "unit_price": 33.16,
+    "discount_amount": 3.32,
+    "tax_amount": 6.3,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90096,
+    "order_id": 50096,
+    "product_id": 25,
+    "quantity": 3,
+    "unit_price": 236.0,
+    "discount_amount": 0.0,
+    "tax_amount": 70.8,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90097,
+    "order_id": 50097,
+    "product_id": 21,
+    "quantity": 2,
+    "unit_price": 166.58,
+    "discount_amount": 0.0,
+    "tax_amount": 33.32,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90098,
+    "order_id": 50098,
+    "product_id": 18,
+    "quantity": 1,
+    "unit_price": 158.17,
+    "discount_amount": 0.0,
+    "tax_amount": 15.82,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90099,
+    "order_id": 50099,
+    "product_id": 22,
+    "quantity": 2,
+    "unit_price": 557.7,
+    "discount_amount": 0.0,
+    "tax_amount": 111.54,
+    "batch_id": "batch_cdc"
+  },
+  {
+    "item_id": 90100,
+    "order_id": 50100,
+    "product_id": 12,
+    "quantity": 1,
+    "unit_price": 50.27,
+    "discount_amount": 2.51,
+    "tax_amount": 4.78,
+    "batch_id": "batch_cdc"
+  }
+]

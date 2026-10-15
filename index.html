@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniRetail — Real-Time Pipeline & Hybrid DWH</title>
+  <meta name="description" content="Production data topology: Greenplum MPP ACID core with ClickHouse OLAP speed layer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Global App Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="brand-badge">
+        <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div class="brand-info">
+        <div class="brand-row">
+          <span class="brand-title">OmniRetail Data Platform</span>
+          <span class="status-pill status-healthy">
+            <span class="status-dot"></span>
+            <span>Cluster Healthy</span>
+          </span>
+        </div>
+        <div class="brand-breadcrumb">
+          <span>infra</span>
+          <span class="sep">/</span>
+          <span>pipelines</span>
+          <span class="sep">/</span>
+          <span>hybrid-dwh-mesh</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="filter-wrapper">
+        <label for="flow-filter" class="control-label">View Layer</label>
+        <select id="flow-filter" class="select-field">
+          <option value="all">Full Mesh Topology</option>
+          <option value="financial">Financial Core (Greenplum ACID)</option>
+          <option value="speed">Speed Layer (ClickHouse OLAP)</option>
+          <option value="sync">CDM &rarr; Wide Mart Sync</option>
+        </select>
+      </div>
+
+      <div class="action-divider"></div>
+
+      <div class="button-group">
+        <button id="btn-generate-batch" class="action-btn btn-secondary" title="Simulate 10,000 incoming telemetry and order events">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-svg">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          </svg>
+          <span>Inject Batch (10k)</span>
+        </button>
+
+        <button id="btn-toggle-stream" class="action-btn btn-primary">
+          <span class="pulse-indicator" id="stream-pulse"></span>
+          <span id="stream-btn-text">Live Ingestion</span>
+        </button>
+
+        <button id="btn-audit" class="action-btn btn-ghost" title="Reconcile revenue between Greenplum and ClickHouse">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-svg">
+            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          <span>Run Reconciliation</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Live Cluster Telemetry Bar -->
+  <section class="telemetry-bar">
+    <div class="telemetry-item">
+      <span class="telemetry-label">Ingested Events</span>
+      <div class="telemetry-value-row">
+        <span class="telemetry-value" id="val-events">1,420,500</span>
+        <span class="telemetry-delta">&uarr; 2.4k/s</span>
+      </div>
+    </div>
+
+    <div class="telemetry-item">
+      <span class="telemetry-label">ClickHouse Deduplications</span>
+      <div class="telemetry-value-row">
+        <span class="telemetry-value color-cyan" id="val-dedup">68,184</span>
+        <span class="telemetry-sub">ReplacingMergeTree</span>
+      </div>
+    </div>
+
+    <div class="telemetry-item">
+      <span class="telemetry-label">SCD Type 2 Versions</span>
+      <div class="telemetry-value-row">
+        <span class="telemetry-value color-emerald" id="val-scd2">4,971</span>
+        <span class="telemetry-sub">dim_users_scd2</span>
+      </div>
+    </div>
+
+    <div class="telemetry-item">
+      <span class="telemetry-label">ClickHouse Query p99</span>
+      <div class="telemetry-value-row">
+        <span class="telemetry-value">16.4 ms</span>
+        <span class="telemetry-sub">Sub-20ms SLA</span>
+      </div>
+    </div>
+
+    <div class="telemetry-item">
+      <span class="telemetry-label">Ledger Reconciliation</span>
+      <div class="telemetry-value-row">
+        <span class="telemetry-value color-emerald" id="val-variance">0.0030%</span>
+        <span class="telemetry-badge-pass">PASS &lt; 0.01%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pipeline Canvas -->
+  <main class="mesh-canvas-container" id="canvas-container">
+    <svg class="mesh-svg-layer" id="mesh-svg">
+      <defs>
+        <linearGradient id="flow-greenplum" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#10b981"/>
+          <stop offset="100%" stop-color="#059669"/>
+        </linearGradient>
+        <linearGradient id="flow-clickhouse" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#0284c7"/>
+          <stop offset="100%" stop-color="#38bdf8"/>
+        </linearGradient>
+        <linearGradient id="flow-sync" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#f59e0b"/>
+          <stop offset="100%" stop-color="#10b981"/>
+        </linearGradient>
+      </defs>
+      <g id="svg-connections"></g>
+      <g id="svg-packets"></g>
+    </svg>
+
+    <div class="topology-grid">
+
+      <!-- Stage 1: Sources -->
+      <div class="topology-stage" data-stage="source">
+        <div class="stage-header">
+          <span class="stage-step">01</span>
+          <span class="stage-title">Ingress Sources</span>
+        </div>
+        <div class="stage-nodes">
+          <div class="node-card" id="node-postgres" data-id="node-postgres" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-postgres">Source &bull; CDC</span>
+              <span class="node-badge">OLTP</span>
+            </div>
+            <div class="node-name">PostgreSQL (Core Orders)</div>
+            <div class="node-desc">Orders, line items, user updates via Debezium WAL</div>
+          </div>
+
+          <div class="node-card" id="node-clickstream" data-id="node-clickstream" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-clickstream">Event Stream</span>
+              <span class="node-badge">20k eps</span>
+            </div>
+            <div class="node-name">Clickstream SDK</div>
+            <div class="node-desc">Mobile &amp; web telemetry (views, carts, checkout)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 2: Buffer & Lake -->
+      <div class="topology-stage" data-stage="buffer">
+        <div class="stage-header">
+          <span class="stage-step">02</span>
+          <span class="stage-title">Buffer &amp; Lake</span>
+        </div>
+        <div class="stage-nodes">
+          <div class="node-card" id="node-kafka" data-id="node-kafka" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-kafka">Event Backbone</span>
+              <span class="node-badge">12 Partitions</span>
+            </div>
+            <div class="node-name">Apache Kafka</div>
+            <div class="node-desc">Partitioned by user_id for deterministic ordering</div>
+          </div>
+
+          <div class="node-card" id="node-minio" data-id="node-minio" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-s3">Object Store</span>
+              <span class="node-badge">Bronze S3</span>
+            </div>
+            <div class="node-name">MinIO S3 Lake</div>
+            <div class="node-desc">Partitioned Parquet archives (Snappy compressed)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 3: Processing -->
+      <div class="topology-stage" data-stage="compute">
+        <div class="stage-header">
+          <span class="stage-step">03</span>
+          <span class="stage-title">Distributed Compute</span>
+        </div>
+        <div class="stage-nodes">
+          <div class="node-card card-highlight" id="node-spark" data-id="node-spark" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-spark">Processing Engine</span>
+              <span class="node-badge">PySpark 3.5</span>
+            </div>
+            <div class="node-name">Apache Spark Core</div>
+            <div class="node-desc">Point-in-time SCD2 joins, unit economics &amp; wide table assembly</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 4: Dual Storage Engines -->
+      <div class="topology-stage dual-stage" data-stage="storage">
+        <div class="stage-header">
+          <span class="stage-step">04</span>
+          <span class="stage-title">Hybrid DWH &amp; OLAP</span>
+        </div>
+
+        <div class="dual-lanes">
+          <!-- Lane A: Greenplum Core DWH -->
+          <div class="engine-lane lane-greenplum">
+            <div class="lane-header">
+              <span class="lane-title">Greenplum MPP (Financial Core)</span>
+              <span class="lane-tag">ACID Audit</span>
+            </div>
+
+            <div class="node-card" id="node-gp-stg" data-id="node-gp-stg" tabindex="0">
+              <div class="node-meta">
+                <span class="node-pill pill-postgres">STG Layer</span>
+                <span class="node-badge">No Constraints</span>
+              </div>
+              <div class="node-name">stg.stg_orders</div>
+              <div class="node-desc">Fast staging table, truncated per batch load</div>
+            </div>
+
+            <div class="node-card active" id="node-gp-dds" data-id="node-gp-dds" tabindex="0">
+              <div class="node-meta">
+                <span class="node-pill pill-postgres">DDS Core Star</span>
+                <span class="node-badge">Colocated Hash</span>
+              </div>
+              <div class="node-name">fact_orders &amp; dim_users</div>
+              <div class="node-desc">DISTRIBUTED BY (user_id) for zero-motion joins</div>
+            </div>
+
+            <div class="node-card" id="node-gp-cdm" data-id="node-gp-cdm" tabindex="0">
+              <div class="node-meta">
+                <span class="node-pill pill-postgres">CDM Mart</span>
+                <span class="node-badge">Columnar ZSTD</span>
+              </div>
+              <div class="node-name">dm_product_unit_economics</div>
+              <div class="node-desc">Gross margin, COGS, tax, and discount breakdown</div>
+            </div>
+          </div>
+
+          <!-- Lane B: ClickHouse OLAP Speed Layer -->
+          <div class="engine-lane lane-clickhouse">
+            <div class="lane-header">
+              <span class="lane-title">ClickHouse OLAP (Speed Layer)</span>
+              <span class="lane-tag">Sub-20ms SLA</span>
+            </div>
+
+            <div class="node-card" id="node-ch-raw" data-id="node-ch-raw" tabindex="0">
+              <div class="node-meta">
+                <span class="node-pill pill-clickhouse">Raw Telemetry</span>
+                <span class="node-badge">Deduplicated</span>
+              </div>
+              <div class="node-name">raw_clickstream</div>
+              <div class="node-desc">ReplacingMergeTree(event_version) on ordered sparse index</div>
+            </div>
+
+            <div class="node-card" id="node-ch-mv" data-id="node-ch-mv" tabindex="0">
+              <div class="node-meta">
+                <span class="node-pill pill-clickhouse">Real-Time MV</span>
+                <span class="node-badge">Pre-aggregate</span>
+              </div>
+              <div class="node-name">mv_hourly_product_funnel</div>
+              <div class="node-desc">AggregatingMergeTree with uniqExactState &amp; sumState</div>
+            </div>
+
+            <div class="node-card" id="node-ch-mart" data-id="node-ch-mart" tabindex="0">
+              <div class="node-meta">
+                <span class="node-pill pill-clickhouse">Wide Mart</span>
+                <span class="node-badge">35+ Columns</span>
+              </div>
+              <div class="node-name">wide_product_pricing_mart</div>
+              <div class="node-desc">Denormalized flat mart uniting margins and conversion rates</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 5: Consumers & Serving -->
+      <div class="topology-stage" data-stage="serving">
+        <div class="stage-header">
+          <span class="stage-step">05</span>
+          <span class="stage-title">Consumers &amp; Serving</span>
+        </div>
+        <div class="stage-nodes">
+          <div class="node-card" id="node-pricing" data-id="node-pricing" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-pricing">Low-Latency API</span>
+              <span class="node-badge">&lt; 25ms SLA</span>
+            </div>
+            <div class="node-name">Dynamic Pricing Engine</div>
+            <div class="node-desc">Real-time price elasticity queries on wide mart</div>
+          </div>
+
+          <div class="node-card" id="node-bi" data-id="node-bi" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-bi">BI Dashboards</span>
+              <span class="node-badge">Superset &bull; Grafana</span>
+            </div>
+            <div class="node-name">Executive Analytics</div>
+            <div class="node-desc">Product conversion funnels and category dashboards</div>
+          </div>
+
+          <div class="node-card" id="node-ledger" data-id="node-ledger" tabindex="0">
+            <div class="node-meta">
+              <span class="node-pill pill-ledger">Audited P&amp;L</span>
+              <span class="node-badge">ACID Gate</span>
+            </div>
+            <div class="node-name">Financial Reconciliation</div>
+            <div class="node-desc">Automated ledger gate checking revenue delta &lt; 0.01%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Right Drawer: Technical Node Inspector -->
+  <aside class="inspector-drawer open" id="inspector-drawer">
+    <div class="drawer-header">
+      <div class="drawer-headline">
+        <span class="drawer-badge" id="drawer-badge">DDS Core Star</span>
+        <h2 class="drawer-title" id="drawer-title">fact_orders &amp; dim_users</h2>
+        <span class="drawer-engine" id="drawer-engine">Greenplum MPP (PostgreSQL 16)</span>
+      </div>
+      <button class="drawer-close" id="drawer-close" title="Close drawer">&times;</button>
+    </div>
+
+    <!-- Inspector Tabs -->
+    <nav class="drawer-tabs">
+      <button class="tab-btn active" data-tab="tab-overview">Architecture</button>
+      <button class="tab-btn" data-tab="tab-ddl">SQL Schema</button>
+      <button class="tab-btn" data-tab="tab-sample">Sample Payload</button>
+      <button class="tab-btn" data-tab="tab-runbook">Engineering Notes</button>
+    </nav>
+
+    <div class="drawer-content">
+      <!-- Tab 1: Architecture -->
+      <div class="tab-pane active" id="tab-overview">
+        <div class="pane-group">
+          <h3 class="pane-label">Role in Pipeline</h3>
+          <p class="pane-text" id="drawer-role"></p>
+        </div>
+
+        <div class="pane-group">
+          <h3 class="pane-label">Key Design Decision</h3>
+          <p class="pane-text" id="drawer-opt"></p>
+        </div>
+
+        <div class="pane-group">
+          <h3 class="pane-label">Storage Attributes</h3>
+          <table class="spec-table">
+            <tbody id="drawer-specs"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tab 2: SQL DDL -->
+      <div class="tab-pane" id="tab-ddl">
+        <div class="code-header">
+          <span class="code-title">Production DDL</span>
+          <button class="copy-btn" id="btn-copy-ddl">Copy SQL</button>
+        </div>
+        <pre class="code-display"><code id="drawer-ddl"></code></pre>
+      </div>
+
+      <!-- Tab 3: Sample Payload -->
+      <div class="tab-pane" id="tab-sample">
+        <div class="code-header">
+          <span class="code-title">Wire Format / Record JSON</span>
+          <button class="copy-btn" id="btn-copy-json">Copy JSON</button>
+        </div>
+        <pre class="code-display"><code id="drawer-json"></code></pre>
+      </div>
+
+      <!-- Tab 4: Engineering Notes / Runbook -->
+      <div class="tab-pane" id="tab-runbook">
+        <div class="pane-group">
+          <h3 class="pane-label">Known Failure Modes &amp; Mitigations</h3>
+          <ul class="runbook-list" id="drawer-runbook"></ul>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Bottom Audit Log Console (Collapsible) -->
+  <footer class="audit-console" id="audit-console">
+    <div class="console-header" id="console-header">
+      <div class="console-title-group">
+        <span class="console-status-dot"></span>
+        <span class="console-title">Live Pipeline Activity Log</span>
+        <span class="console-count" id="log-count">3 entries</span>
+      </div>
+      <button class="console-toggle" id="console-toggle">Minimize</button>
+    </div>
+    <div class="console-body" id="console-body">
+      <div class="log-entry">
+        <span class="log-ts">15:18:02</span>
+        <span class="log-tag tag-info">INFO</span>
+        <span class="log-msg">Topology initialized. ClickHouse OLAP and Greenplum MPP schemas validated.</span>
+      </div>
+      <div class="log-entry">
+        <span class="log-ts">15:18:03</span>
+        <span class="log-tag tag-success">AUDIT</span>
+        <span class="log-msg">Automated reconciliation gate: Gross Revenue delta 0.0030% &lt; threshold 0.0100%. Status: PASS.</span>
+      </div>
+      <div class="log-entry">
+        <span class="log-ts">15:18:04</span>
+        <span class="log-tag tag-spark">SPARK</span>
+        <span class="log-msg">SCD Type 2 user revisions window applied. Point-in-time order facts compiled.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Toast -->
+  <div class="app-toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
